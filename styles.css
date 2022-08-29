@@ -2,14 +2,24 @@
   --color-fondo: #eee;
   --color-test: red;
 }
+#page-wrapper {
+  position: relative;
+}
 .logo {
   width: 60vw;
 }
+.grid{
+  display: grid;
+}
+
 #header {
   background-color: var(--color-fondo);
   display: flex;
   align-items: center;
   position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
 
 }
 @media (max-width: 600px) {
@@ -77,13 +87,29 @@ li {
 }
 
 .btn {
-    padding: 0 20px;
-    height: 40px;
-    font-size: 1em;
-    font-weight: 900;
-    text-transform: uppercase;
-    border: 3px black solid;
-    border-radius: 2px;
-    background: transparent;
-    cursor: pointer;
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
 }
