@@ -272,6 +272,15 @@ body {
 }
 
 /*  Footer */
-.footer {
+footer {
   background: var(--main-gray);
+  border-top: 4px solid var(--main-red);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+footer > p {
+  margin: 10px;
 }
