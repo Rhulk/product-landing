@@ -170,7 +170,21 @@ body {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
   }
-  
+  .button {
+    margin-top: 35px;
+  }
+
+  .btn-all {
+    background: var(--main-gray);
+    padding: 15px 15px;
+    margin: 10px 0px;
+    
+    font-size: 20px;
+  }
+  .btn-all:hover{
+    background: var(--main-red);
+  }
+
   .code {
     color: var(--main-gray);
     transition: color 0.3s ease-out;
@@ -217,3 +231,47 @@ body {
     transition: transform 0.3s ease-out;
   }
 /* end project*/
+
+/* Sección contac */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: var(--main-gray);
+  width: 100%;
+  height: 760px;
+  padding-top: 30px;
+
+}
+.contact-header {
+  
+}
+.contac-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.link-contac:hover {
+  padding-top: 10px;
+}
+.link-contac {
+  display: inline-block;
+  
+  border-radius: 2px;
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+/*  Footer */
+.footer {
+  background: var(--main-gray);
+}
